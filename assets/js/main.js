@@ -1,4 +1,4 @@
-//array of items
+//array of item objects
 const items = [];
 
 //resets visibility of html fields
@@ -106,7 +106,7 @@ function submitClick(){
             serial: document.getElementById('serial').value,
             name: document.getElementById('name').value,
             manufacturer: document.getElementById('manufacturer').value,
-            weight: document.getElementById('weight').value,
+            weight: document.getElementById('weight').value + " lbs",
             color: document.getElementById('color').value,
             type: document.getElementById('type').value
             };
