@@ -1,0 +1,161 @@
+.headerDiv{
+  height: 25px;
+}
+.imageHeader{
+  align-items: center;
+  padding-top: 0%;
+}
+.leidos{
+    display: inline;
+    float: left;
+}
+.USAF{
+    display: inline;  
+    float: right;
+}
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+.navBar{
+    position:relative;
+    top: 125px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+  margin: 10px 5px;
+  float: left;
+}
+.navDiv{
+  margin-top:200px;
+}
+.systemHeader{
+  position: relative;
+  top: 125px;
+  align-self: center;
+  text-align: center;
+  display:inline-block;
+}
+.inputDiv{
+  position: relative;
+  top: 150px;
+}
+.leftForm{
+  position: relative;
+  width: 50%;
+  z-index: 99;
+  float: left;
+  display:block;
+  text-align: right;
+  z-index: 99;
+}
+.innerLeft{
+  position: relative;
+  padding-right: 20px;
+  z-index: 99;
+}
+.rightForm{
+  position: relative;
+  width: 50%;
+  z-index: 99;
+  float: right;
+  display:block;
+  text-align: right;
+}
+.rightDivContainer{
+  position: relative;
+  z-index: 99;
+  float: left;
+}
+.innerRight{
+  position: relative;
+  z-index: 99;
+  padding-left: 10px;
+}
+.regBtn{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 12px;
+    padding: 14px 50px;
+}
+.regBtn:hover {
+  background-color:#639DDE;
+  transition: 0.7s;
+}
+.regBtn:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 2px #639DDE;
+}
+.regBtn:focus:focus {
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px #639DDE;
+  transition: 0.7s;
+}
+.container {
+    color: #1e90ff;
+    background-color: #818C98;
+    padding: 15px;
+}
+.serialField{
+  visibility: hidden;
+  width: 175px;
+}
+.nameField{
+  visibility: hidden;
+  width: 175px;
+}
+.manufacturerField{
+  visibility: hidden;
+  width: 175px;
+}
+.weightField{
+  visibility: hidden;
+  width: 175px;
+}
+.colorField{
+  visibility: hidden;
+  width: 175px;
+}
+.typeField{
+  visibility: hidden;
+  width: 175px;
+}
+.submitBtn{
+  visibility: hidden;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 12px;
+  padding: 7px 25px;
+}
+.submitBtn:hover {
+  background-color:#639DDE;
+  transition: 0.7s;
+}
+.submitBtn:focus {
+  outline-color: transparent;
+  outline-style: solid;
+  box-shadow: 0 0 0 2px #639DDE;
+}
+.submitBtn:focus:focus {
+  outline-color: transparent;
+  outline-style:solid;
+  box-shadow: 0 0 0 2px #639DDE;
+  transition: 0.7s;
+}
+.txtOutput{
+  position: relative;
+  top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  visibility: hidden;
+}
